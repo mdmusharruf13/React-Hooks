@@ -54,3 +54,29 @@ import { useEffect } from 'react';
 useEffect(fn, dependencies);
 ```
 
+## useContext
+
+### what is useContext ?
+useContext hook is used to manage global data in react application such as global state, theme services, user settings etc
+
+### Why we need useContext hook ?
+Imagine you create an application with hierarchy of level-5 depth and you have to send data from level-1 component to level-4 component so sending data through props is very annoying and hard to maintail. so useContext help us to create global data for our react application so we don't have to pass the data through all these components, we can access that data in all component we needed.
+
+__Creating context requires 3 simple steps:__ 
+1. Creating the Context
+2. Providing the Context
+3. Consuming the Context
+
+```js
+// creating context
+export const someContext = createContext();
+
+//providing context
+<someContext.Provider>
+    {props.childern}
+</someContext.Provider>
+
+//consuming context
+const myContext = useContext(someContext);
+console.log(myContext);
+```
