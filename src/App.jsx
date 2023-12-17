@@ -2,7 +2,8 @@
 // import UseState_02 from "./hooks/UseState/UseState_02"
 // import UseState_03 from "./hooks/UseState/UseState_03"
 
-import UseEffect_01 from "./hooks/UseEffect/UseEffect_01"
+// import UseEffect_01 from "./hooks/UseEffect/UseEffect_01"
+import UseEffect_02 from "./hooks/UseEffect/UseEffect_02"
 
 function App() {
 
@@ -14,7 +15,9 @@ function App() {
 
         {/* <UseState_03 /> */}
 
-        <UseEffect_01 />
+        {/* <UseEffect_01 /> */}
+
+        <UseEffect_02 />
     </>
   )
 }
