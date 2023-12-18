@@ -161,3 +161,6 @@ useCallback is used to return Memoize function. It's also useful for preventing 
 ```js
 const memoizedFn = (fn, [dependency]);
 ```
+
+## Custom Hooks  
+Custom hooks are your login which you created as reusable function. you can use multiple hooks and create something that will help you to skip repeated tasks in your project.

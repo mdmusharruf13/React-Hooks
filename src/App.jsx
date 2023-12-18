@@ -18,8 +18,10 @@
 // import UseMemo_01 from "./hooks/UseMemo/UseMemo_01"
 // import UseMemo_02 from "./hooks/UseMemo/UseMemo_02"
 
-import UseCallback_01 from "./hooks/useCallback/UseCallback_01"
-import UseCallback_02 from "./hooks/useCallback/UseCallback_02"
+// import UseCallback_01 from "./hooks/useCallback/UseCallback_01"
+// import UseCallback_02 from "./hooks/useCallback/UseCallback_02"
+
+import UseFetch_01 from "./hooks/custome-hook/UseFetch_01"
 
 
 
@@ -52,12 +54,14 @@ function App() {
         {/* <UseMemo_01 />
         <UseMemo_02 /> */}
 
-        <UseCallback_01 />
+        {/* <UseCallback_01 />
         <br />
         <hr />
         <br />
-        <UseCallback_02 />
+        <UseCallback_02 /> */}
 
+        {/* custom hook */}
+        <UseFetch_01 />
     </>
   )
 }
