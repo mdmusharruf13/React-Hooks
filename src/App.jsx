@@ -10,7 +10,10 @@
 
 // import UseRef_01 from "./hooks/UseRef/UseRef_01"
 
-import UseReducer_01 from "./hooks/UseReducer/UseReducer_01"
+// import UseReducer_01 from "./hooks/UseReducer/UseReducer_01"
+
+import UseLayoutEffect_01 from "./hooks/useLayoutEffect/UseLayoutEffect_01"
+
 
 function App() {
 
@@ -32,7 +35,9 @@ function App() {
 
         {/* <UseRef_01 /> */}
 
-        <UseReducer_01 />
+        {/* <UseReducer_01 /> */}
+        
+        <UseLayoutEffect_01 />
     </>
   )
 }
