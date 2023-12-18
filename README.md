@@ -138,3 +138,18 @@ useLayoutEffect runs
 React prints all elements   
           ⬇   
 useEffect runs
+
+__Note :__  
+useLayoutEffect is Synchronous and useEffect is Asynchronous.
+
+
+## useMemo  
+### What is useMemo ?
+useMemo hook is used to apply Memoization in React. It is useful to avoid on every render when the returned value is not change. 
+
+### What is Memoization ?  
+Memoization is a technique for improving the performance of code.
+
+```js
+const memoCalculation = useMemo(callback, [dependency]);
+```
