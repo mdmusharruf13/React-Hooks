@@ -12,7 +12,8 @@
 
 // import UseReducer_01 from "./hooks/UseReducer/UseReducer_01"
 
-import UseLayoutEffect_01 from "./hooks/useLayoutEffect/UseLayoutEffect_01"
+// import UseLayoutEffect_01 from "./hooks/useLayoutEffect/UseLayoutEffect_01"
+import UseLayoutEffect_02 from "./hooks/useLayoutEffect/UseLayoutEffect_02"
 
 
 function App() {
@@ -37,7 +38,9 @@ function App() {
 
         {/* <UseReducer_01 /> */}
         
-        <UseLayoutEffect_01 />
+        {/* <UseLayoutEffect_01 /> */}
+
+        <UseLayoutEffect_02 />
     </>
   )
 }
