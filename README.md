@@ -80,3 +80,29 @@ export const someContext = createContext();
 const myContext = useContext(someContext);
 console.log(myContext);
 ```
+## useRef
+
+### What is useRef ?
+UseRef allows us to access DOM elements and for creating mutable variables which will not re-render the component.
+
+```js
+cosnt myRef = useRef(null);
+console.log(myRef);
+
+<input type="text" ref={myRef}>
+```
+
+## useReducer 
+
+### What is useReducer ?
+useReducer is used to manage state in our react application. In other words, useReducer works like a state management tool.
+
+
+### What is State Management ?
+State Management is used to manage all states of application in a simple way. Always use the useReducer hook when you have a lot of states and methods to handle.
+
+```js
+const [state, dispatch] = useReducer(method, initialValue);
+```
+
+useReducer is used to manage complex states in react application.
