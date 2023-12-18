@@ -106,3 +106,35 @@ const [state, dispatch] = useReducer(method, initialValue);
 ```
 
 useReducer is used to manage complex states in react application.
+
+## useLayoutEffect
+
+### What is useLayoutEffect ?
+useLayoutEffect works exactly the same sa useEffect (also the same syntax), but the difference is "When it's run". useEffect runs after the DOM is printed on the browser. useLayoutEffect runs before the DOM is printed on the browser. 
+whenever we want to run code before the DOM  is printed like measuring the Height, Width, anything related to layout. 
+useLayoutEffect runs Synchronously (it execute first line then only moves to second line). 
+The most common use case of useLayoutEffect is to get the dimension of the layout that's why it's name is useLayoutEffect.
+
+```
+const [count, setCount] = useState(0);
+
+useEffect(() => {
+    console.log("useEffect runs");
+}, [count]);
+
+useLayoutEffect(() => {
+    console.log("useLayoutEffect runs");
+}, [count]);
+```
+
+In the above example the useLayoutEffect run first then the useEffect runs. Both does the same works by differ in time of execution. 
+
+__Flow :__  
+
+React calculate the component  
+          ⬇    
+useLayoutEffect runs   
+          ⬇  
+React prints all elements   
+          ⬇   
+useEffect runs
