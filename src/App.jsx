@@ -15,8 +15,12 @@
 // import UseLayoutEffect_01 from "./hooks/useLayoutEffect/UseLayoutEffect_01"
 // import UseLayoutEffect_02 from "./hooks/useLayoutEffect/UseLayoutEffect_02"
 
-import UseMemo_01 from "./hooks/UseMemo/UseMemo_01"
-import UseMemo_02 from "./hooks/UseMemo/UseMemo_02"
+// import UseMemo_01 from "./hooks/UseMemo/UseMemo_01"
+// import UseMemo_02 from "./hooks/UseMemo/UseMemo_02"
+
+import UseCallback_01 from "./hooks/useCallback/UseCallback_01"
+import UseCallback_02 from "./hooks/useCallback/UseCallback_02"
+
 
 
 function App() {
@@ -45,8 +49,14 @@ function App() {
 
         {/* <UseLayoutEffect_02 /> */}
 
-        <UseMemo_01 />
-        <UseMemo_02 />
+        {/* <UseMemo_01 />
+        <UseMemo_02 /> */}
+
+        <UseCallback_01 />
+        <br />
+        <hr />
+        <br />
+        <UseCallback_02 />
 
     </>
   )

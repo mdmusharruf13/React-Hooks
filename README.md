@@ -153,3 +153,11 @@ Memoization is a technique for improving the performance of code.
 ```js
 const memoCalculation = useMemo(callback, [dependency]);
 ```
+
+## useCallback  
+### What is useCallback ?  
+useCallback is used to return Memoize function. It's also useful for preventing functions from being re-created on re-rendering. It improves the performance of our react application. useCallback syntax is same as useMemo hook, but useMemo returns the memoize value and useCallback returns the memoize function.
+
+```js
+const memoizedFn = (fn, [dependency]);
+```
