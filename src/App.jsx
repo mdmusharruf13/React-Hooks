@@ -8,7 +8,9 @@
 
 // import UseContext_01 from "./hooks/UseContext/UseContext_01"
 
-import UseRef_01 from "./hooks/UseRef/UseRef_01"
+// import UseRef_01 from "./hooks/UseRef/UseRef_01"
+
+import UseReducer_01 from "./hooks/UseReducer/UseReducer_01"
 
 function App() {
 
@@ -28,8 +30,9 @@ function App() {
 
         {/* <UseContext_01 /> */}
 
-        <UseRef_01 />
+        {/* <UseRef_01 /> */}
 
+        <UseReducer_01 />
     </>
   )
 }
