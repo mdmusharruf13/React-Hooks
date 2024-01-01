@@ -2,6 +2,8 @@
 // import UseState_02 from "./hooks/UseState/UseState_02"
 // import UseState_03 from "./hooks/UseState/UseState_03"
 
+import UseState_04 from "./hooks/UseState/UseState_04"
+
 // import UseEffect_01 from "./hooks/UseEffect/UseEffect_01"
 // import UseEffect_02 from "./hooks/UseEffect/UseEffect_02"
 // import UseEffect_03 from "./hooks/UseEffect/UseEffect_03"
@@ -21,7 +23,7 @@
 // import UseCallback_01 from "./hooks/useCallback/UseCallback_01"
 // import UseCallback_02 from "./hooks/useCallback/UseCallback_02"
 
-import UseFetch_01 from "./hooks/custome-hook/UseFetch_01"
+// import UseFetch_01 from "./hooks/custome-hook/UseFetch_01"
 
 
 
@@ -61,7 +63,9 @@ function App() {
         <UseCallback_02 /> */}
 
         {/* custom hook */}
-        <UseFetch_01 />
+        {/* <UseFetch_01 /> */}
+
+        <UseState_04 />
     </>
   )
 }
